@@ -69,10 +69,7 @@ function enableCam(event) {
 var model = undefined;
 model_url = 'https://raw.githubusercontent.com/KostaMalsev/ImageRecognition/master/model/mobile_netv2/web_model2/model.json';
 // change to our own pretrained model
-<<<<<<< HEAD
-=======
-//model_url = model_zoo.get_model('yolo3_darknet53_voc', pretrained=True)
->>>>>>> b7a31dbe1ff074f147e7eb7066e3694a78934314
+
 
 //Call load function
 asyncLoadModel(model_url);
